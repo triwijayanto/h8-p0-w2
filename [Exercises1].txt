@@ -1,0 +1,47 @@
+1. Newton Second Law
+
+STORE "m" with 600
+STORE "a" with 2
+STORE "ΣF" without any value
+
+CALCULATE "m" times "a"
+SET "ΣF" value with calculation result
+
+DISPLAY "ΣF"
+
+##########################################
+
+2. Tahun Kabisat
+
+STORE "tahun" to any number
+
+IF "tahun" / 4 == 0 && "tahun" / 100 !== 0 
+  DO "kabisat"
+OR IF "tahun" / 4 == 0 && "tahun" / 100 == 0 && "tahun" / 400 == 0
+  DO "kabisat"
+
+##########################################
+
+3. Laundry Day
+
+STORE "full tank" with 20
+
+WHILE "full level" < 21
+  ADD "full level" by 1
+
+DISPLAY "full tank!"
+
+##########################################
+
+4. Periksa Kuku
+
+STORE "siswa" to 1
+
+WHILE "kukusiswa" < 41
+  DISPLAY "kukusiswa"
+  CEK "kukusiswa" == panjang
+  STORE "apakah kuku panjang?" to the result
+  IF "apakah kuku panjang?" == panjang
+    DISPLAY "menghukum siswa/siswi"
+  ELSE
+    DISPLAY "memuji siswa/siswi"
