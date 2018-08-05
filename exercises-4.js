@@ -1,45 +1,45 @@
 // gantilah nilai variable bulan
 var hari = 1
-var bulan = 12
+var bulan = 4
 var tahun = 1900
 
 // switch case hanya untuk variable bulan
 switch (bulan) {
   case 1:
-    console.log(hari+2, 'Januari', tahun+10);
+    console.log(hari, 'Januari', tahun);
     break;
   case 2:
-    console.log(hari+4, 'Februari', tahun+20);
+    console.log(hari, 'Februari', tahun);
     break;
   case 3:
-    console.log(hari+8, 'Maret' , tahun+30);
+    console.log(hari, 'Maret' , tahun);
     break;
   case 4:
-    console.log(hari+10, 'April' , tahun+40);
+    console.log(hari, 'April' , tahun);
     break;    
   case 5:
-    console.log(hari+12, 'Mei' , tahun+50);
+    console.log(hari, 'Mei' , tahun);
     break;    
   case 6:
-    console.log(hari+14, 'Juni' , tahun+60);
+    console.log(hari, 'Juni' , tahun);
     break;    
   case 7:
-    console.log(hari+16, 'Juli' , tahun+70);
+    console.log(hari, 'Juli' , tahun);
     break;                       
   case 8:
-    console.log(hari+20, 'Agustus' , tahun+80);
+    console.log(hari, 'Agustus' , tahun);
     break;    
   case 9:
-    console.log(hari+22, 'September' , tahun+90);
+    console.log(hari, 'September' , tahun);
     break;    
   case 10:
-    console.log(hari+24, 'Oktober' , tahun+100);
+    console.log(hari, 'Oktober' , tahun);
     break;    
   case 11:
-    console.log(hari+26, 'November' , tahun+110);
+    console.log(hari, 'November' , tahun);
     break;
   case 12:
-    console.log(hari+28, 'Desember' , tahun+120);
+    console.log(hari, 'Desember' , tahun);
     break;                            
   default:
     console.log('pilih bulan yang tepat, coba lagi!');
